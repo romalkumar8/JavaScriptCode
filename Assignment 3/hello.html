@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/data.json">
+    <script src="/app.js" defer></script>
+    <link rel="stylesheet" href="/bootstrap.min.css">
+</head>
+<body>
+ <table class="col-md-12 " >
+    <tr >
+        <td class="col-md-1"></td>
+        <td class="col-md-3">GENRE</td>
+        <td class="col-md-3">YEAR</td>
+        <td class="col-md-3">LANGUAGE</td>
+        <td class="col-md-1"></td>
+    </tr>
+    <tr>
+        <td class="col-md-1"></td>
+        <td><select style="width: 90%;" name="" id="genre" >
+            <option value="" selected disabled>Select Type Of Movie...</option>
+            <option value="Action">Action</option>
+            <option value="Science Fiction">Science Fiction</option>
+            <option value="Adventure">Adventure</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Theiller">Theiller</option>
+            <option value="Animation">Animation</option>
+            <option value="Family">Family</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Crime">Crime</option>
+            <option value="Drama">Drama</option>
+            <option value="Romance">Romance</option>
+            <option value="Western">Western</option>
+            <option value="History">History</option>
+            <option value="War">War</option>
+            <option value="Horror">Horror</option>
+            <option value="Music">Music</option>
+            <option value="Tv Movie">Tv Movie</option>
+            <option value="Mystery">Mystery</option>
+        </select></td>
+        <td><select style="width: 90%;" name="" id="year" ><option value="" selected disabled>Select Releasing Date...</option></select></td>
+        <td><select style="width: 90%;" name="" id="language" ><option value="" selected disabled>Select Language...</option></select></td>
+        <td class="col-md-1"></td>
+    </tr>
+    <tr>
+        <td class="col-md-1"></td>
+        <td>
+            RATING
+        </td>
+        <td class="col-md-1"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td colspan="3">
+            <select style="width: 97%;" name="" id="rating" ><option value="" selected disabled>Select Rating...</option></select>
+        </td>
+        
+    </tr>
+ </table>
+<hr>
+    <table class="col-md-12" >
+        <tr>
+            <td class="col-md-3">Ranking</td>
+            <td class="col-md-6">Movie</td>
+            <td class="col-md-3">Year</td>
+        </tr>
+        <tr>
+            <td>
+                <ul id="ranking-list"></ul>
+            </td>
+            <td>
+                <div class="col-md-12">
+                    <ul id="result-list"></ul>
+                </div>
+            </td>
+        </tr>
+        <tr></tr>
+    </table>
+            
+
+    
+   
+</body>
+</html>
